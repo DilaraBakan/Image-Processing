@@ -1,0 +1,4 @@
+value1 = int(input("Enter the first number:"))
+value2 = int(input("Enter the second number:"))
+total = value1 * value2
+print(value1, "*", value2, "=",total)
