@@ -1,4 +1,4 @@
-import numpy as x
+import numpy as np
   
-array = x.random.rand(5)
+array = np.random.rand(5)
 print("1D Array filled with random values : \n", array);
