@@ -1,0 +1,16 @@
+import cv2
+import numpy as np
+
+resim1=cv2.imread("brain.jpg")
+
+cv2.imshow("Brain",resim1)
+
+#To find the size of the picture:
+print(resim1.size)
+#To find out the data type of the image:
+print(resim1.dtype)
+#To find out the width, height and how many channels the picture consists of:
+print(resim1.shape)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
